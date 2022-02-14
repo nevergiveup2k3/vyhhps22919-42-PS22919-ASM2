@@ -1,0 +1,19 @@
+.menu ul{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    line-height: 50px;
+    width: 19%;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: rgb(37, 37, 37);
+    display: block;
+}
+.menu ul li a:hover{
+    color: orangered;
+}

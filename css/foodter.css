@@ -1,0 +1,23 @@
+.my-infor-left>ul{
+    list-style: none;
+    width: 100%;
+    margin: 0px;
+}   
+.my-infor-left>ul>li{
+    width: 100%;
+    font-size: small;
+    height: 30px;
+    margin: 0;
+}
+.my-infor-left{
+    display: inline-block;
+    margin: 2px;
+    width: 32%;
+    
+}
+.my-infor-left>ul>li>a{
+    text-decoration: none;
+}
+.my-infor-left>ul>li>a:hover{
+    color: orangered;
+}

@@ -1,0 +1,30 @@
+.right-menu>ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+.right-menu>ul>li{
+    border: 2px solid rgb(255, 147, 219);
+    margin-top: 2.42px;
+    padding: 5px;
+}
+.right-menu>ul>li>a{
+    background: url(images/icons.jpg) no-repeat 10px center;
+    background-size: 20px;
+    display: block;
+    color: rgb(37, 37, 37);
+    font-variant: small-caps;
+    font-size: larger;
+    text-decoration: none;
+    padding: 8px 5px 8px 35px;
+}
+.right-menu>ul>li>a:hover{
+    background: url(images/icons2.jpg) no-repeat 10px center;
+    color: orangered;
+    background-size: 20px;
+}
+.right-menu-img>img{
+    height: 460px;
+    
+}

@@ -1,0 +1,211 @@
+.box{
+    width: 50%;
+    height: 500px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px 20px 20px 20px;
+    box-shadow: 0px 0px 5px wheat;
+    float: left;
+    position: relative;
+}
+.box .name{
+    position: absolute;
+    left: 56px;
+    top: 10px;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+.sp{
+    width: 100%;
+    height: 100%;
+}
+.box img{
+    width: 80%;
+    height: auto;
+    position: absolute;
+    top:50px;
+    left: 50px; 
+}
+.box .price{
+    position: absolute;
+    left: 80px;
+    bottom: 10px;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+.infor{
+    float: left;
+    width: auto;
+    margin: 10px;
+    font-variant: small-caps;
+    height: 500px;
+    position: relative;
+}
+.infor h2{
+    font-size: 40px;
+    color: red;
+}
+.infor1 ul{
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+.thongso h3{
+    margin: 10px;
+    width: 400px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 23px;
+}
+.thongso{
+    width: 100%;
+    height: 349px;
+    box-shadow: 0px 0px 5px wheat; 
+    background-color: white;
+}
+.thongsodienthoai ul{
+    list-style: none;
+}
+.chontheloai{
+    height: 120px;
+}
+.chon{
+    font-size: 20px;
+    background-color: white;
+    width: 50%;
+    margin-top: 5px;
+    float: left;
+    text-align: center;
+}
+.chon:hover{
+    background-color: rgb(220, 220, 220);
+}
+.mua{
+    margin-left: 40%;
+    margin-top: 55px;
+}
+.mua input{
+    height: 35px;
+    background-color: rgb(250, 191, 222);
+}
+body{
+    width: 1000%x;
+    min-height: 1050px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: rgb(255, 241, 241);
+}
+.main{
+    width: 100%;
+    height: 100%;
+}
+header{
+    width: 100%;
+    height: 550px;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(253, 221, 226);
+}
+article{
+    width: 70%;
+    height: 4450px;
+    background-color: rgb(255, 241, 241);
+    float: left;
+    position: relative;
+}
+aside{
+    margin-bottom: 0px;
+    width: 30%;
+    height: 100%;
+    background-color: white;
+    float: left;
+}
+footer{
+    clear: both;
+    width: 100%;
+    min-height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-top: 5px double orangered;
+    line-height: 50px;
+    font-variant: small-caps;
+}
+header{
+    background-image: url(backgroundheader.webp);
+    background-size: 100% 100%;
+}
+header>img{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+.seacher{
+    margin-left: 1100px;
+    position: fixed;
+}
+.seacher input{
+    margin: 10px;
+}
+.seacher svg{
+    margin:10px 10px 10px 0px;
+}
+.tableinfor{
+    width: 92%;
+    height: 1000px;
+    padding: 19px;
+    margin-top: 40px;
+    box-shadow: 0px 0px 5px wheat;
+    background-color: white;
+}
+.tableten h2{
+    text-align: center;
+    margin: 5px;
+}
+.tablecontent{
+    text-align: left;
+}
+.tablecontent tr th:nth-child(2n+1){
+    width: 200px;
+    padding: 20px;
+}
+.tablecontent tr th:nth-child(2n){
+    width: 200px;
+    padding: 20px;
+}
+.tablecontent tr:nth-child(2n+1){
+    background-color: rgb(241, 241, 241);
+}
+.thongtinkhac{
+    width: 99%;
+    height: 2357px;
+    margin: 20px;
+}
+.thongtinkhac fieldset legend{
+    font-weight: bold;
+}
+fieldset{
+    display: block;
+    border: 1px yellow solid;
+}
+fieldset .tintuc1 img{
+    width: 90px;
+    height: 65px;
+    position: relative;
+    float: left;
+    border-radius: 10px;
+}
+.tintuc1{
+    width: 100%;
+    height: 76px;
+}
+.tintuc1 a{
+    text-decoration: none;
+    color: black;
+}
+.tintuc1 a p{
+    margin-left: 100px;
+}
+.tintuc1 a:hover{
+    text-decoration: underline;
+}
